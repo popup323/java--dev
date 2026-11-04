@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vize hesaplamaa</title>
+</head>
+<body>
+      <h1>KBÜ Not Hesaplayıcı</h1>
+
+  <div>
+    <label for="vize">Vize (0-100):</label><br>
+    <input type="number" id="vize" min="0" max="100">
+  </div>
+
+  <div>
+    <label for="final">Final (0-100):</label><br>
+    <input type="number" id="final" min="0" max="100">
+  </div>
+
+  <div>
+    <label for="but">Bütünleme (girilirse final yerine geçer):</label><br>
+    <input type="number" id="but" min="0" max="100">
+  </div>
+
+  <div>
+    <input type="checkbox" id="devamsiz">
+    <label for="devamsiz">Devamsızım</label>
+  </div>
+
+  <div>
+    <label for="girdi">Sınava girdim mi?</label><br>
+    <select id="girdi">
+      <option value="evet">Evet</option>
+      <option value="hayir">Hayır</option>
+    </select>      
+  </div>
+
+  <button type="button" id="hesaplaBtn">Hesapla</button>
+  <button type="button" id="sifirlaBtn">Sıfırla</button>
+
+  <div id="sonucKarti">
+    <h2>Sonuç</h2>
+    <p id="uyari" role="alert"></p>
+    <p>Başarı Notu: <span id="basari">-</span></p>
+    <p>Harf Notu: <span id="harf">-</span></p>
+    <p>Durum: <span id="durum">-</span></p>
+    <p id="aciklama"></p>
+  </div>         
+
+  <script src="script.js"></script>
+</body>
+</html>
