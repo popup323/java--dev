@@ -1,6 +1,3 @@
-# java-odev
-vize, bütünleme ve final notlarınıza göre kişinin dersten geçip kaldığını belirten basit bir hesaplama sistemi.
-
 bu README.md dosyası, vsitual studio co-pilot yardımıyla yazılmıştır. 
 # KBÜ Not Hesaplayıcı
 
@@ -43,4 +40,3 @@ Projede kurulum veya ek paket gerekmez. `sevko.html` dosyasını bir web tarayı
 - `sevko.html` — Uygulamanın arayüzü ve not giriş alanları
 - `sevko.js` — Not doğrulama, hesaplama ve sonuç gösterme işlemleri
 - `sevko.css` — Stil dosyası
-
